@@ -16,10 +16,7 @@ if (xpDoHeroi <= 1000) {
     classificacaoDoHeroi = "Ascendente";
 }else if (xpDoHeroi >= 9001 && xpDoHeroi <= 10000) {
     classificacaoDoHeroi = "Imortal";
-}else if (xpDoHeroi >= 10001) {
+}else
     classificacaoDoHeroi = "Radiante";
-}else {
-    console.log("XP muito baixo!");
-}
 
 console.log(`O Herói de nome *${nomeDoHeroi}* está com *${xpDoHeroi}* de XP e está no nível *${classificacaoDoHeroi}!*`);
