@@ -1,6 +1,6 @@
 let nomeDoHeroi = "Allysson";
 let classificacaoDoHeroi = "";
-let xpDoHeroi = 10000;
+let xpDoHeroi = 10500;
 
 if (xpDoHeroi <= 1000) {
     classificacaoDoHeroi = "Ferro";
@@ -22,4 +22,4 @@ if (xpDoHeroi <= 1000) {
     console.log("XP muito baixo!");
 }
 
-console.log(`O Herói de nome ${nomeDoHeroi} está com ${xpDoHeroi} de XP e está no nível ${classificacaoDoHeroi}!`);
+console.log(`O Herói de nome *${nomeDoHeroi}* está com *${xpDoHeroi}* de XP e está no nível *${classificacaoDoHeroi}!*`);
